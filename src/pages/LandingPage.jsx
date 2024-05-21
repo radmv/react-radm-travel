@@ -1,11 +1,19 @@
-import { CenteredFlex, Fullscreen } from "../components";
+import {
+  BrandIcon,
+  CenteredFlex,
+  Fullscreen,
+  HrLine,
+  Navbar,
+} from "../components";
 
 const LandingPage = () => {
   return (
     <>
       <Fullscreen>
+        <Navbar />
+        <HrLine />
         <CenteredFlex>
-          <h1>Hello There</h1>
+          <BrandIcon />
         </CenteredFlex>
       </Fullscreen>
     </>
