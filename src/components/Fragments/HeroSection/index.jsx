@@ -26,9 +26,11 @@ const HeroSection = ({ data }) => {
 
               {/* description */}
               <DescriptionText>
-                We provide what you need to enjoy your <br />
-                holiday with family. Time to make another <br />
-                memorable moments.
+                <p>
+                  We provide what you need to enjoy your <br />
+                  holiday with family. Time to make another <br />
+                  memorable moments.
+                </p>
               </DescriptionText>
             </div>
 

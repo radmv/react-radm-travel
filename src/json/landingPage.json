@@ -16,7 +16,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads2",
       "name": "The People House",
       "type": "Hotel",
       "imageUrl": "/images/image-mostpicked-2.jpg",
@@ -26,7 +26,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads3",
       "name": "House Tour",
       "type": "Rumah",
       "imageUrl": "/images/image-mostpicked-3.jpg",
@@ -36,7 +36,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads4",
       "name": "Jung Hook Sie",
       "type": "Apartment",
       "imageUrl": "/images/image-mostpicked-4.jpg",
@@ -46,7 +46,7 @@
       "unit": "night"
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads5",
       "name": "Jung Hook Sie",
       "type": "Apartment",
       "imageUrl": "/images/image-mostpicked-5.jpg",
@@ -70,7 +70,7 @@
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads2",
           "name": "Kuretakeso",
           "imageUrl": "/images/image-category-2.jpg",
           "country": "South Korea",
@@ -78,7 +78,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads3",
           "name": "Arya Duta",
           "imageUrl": "/images/image-category-3.jpg",
           "country": "South Korea",
@@ -86,7 +86,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads4",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-4.jpg",
           "country": "South Korea",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads2",
       "name": "Hotels with large living room",
       "items": [
         {
@@ -108,7 +108,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads2",
           "name": "Kuretakeso",
           "imageUrl": "/images/image-category-6.jpg",
           "country": "South Korea",
@@ -116,7 +116,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads3",
           "name": "Arya Duta",
           "imageUrl": "/images/image-category-7.jpg",
           "country": "South Korea",
@@ -124,7 +124,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads4",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-8.jpg",
           "country": "South Korea",
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "_id": "asd1293uasdads1",
+      "_id": "asd1293uasdads3",
       "name": "Apartments with kitchen set",
       "items": [
         {
@@ -146,7 +146,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads2",
           "name": "Kuretakeso",
           "imageUrl": "/images/image-category-10.jpg",
           "country": "South Korea",
@@ -154,7 +154,7 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads3",
           "name": "Arya Duta",
           "imageUrl": "/images/image-category-11.jpg",
           "country": "South Korea",
@@ -162,7 +162,7 @@
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
+          "_id": "asd1293uasdads4",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-12.jpg",
           "country": "South Korea",

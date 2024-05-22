@@ -1,4 +1,10 @@
-import { Fullscreen, HeroSection, HrLine, Navbar } from "../components";
+import {
+  Fullscreen,
+  HeroSection,
+  HrLine,
+  MostPickedSection,
+  Navbar,
+} from "../components";
 import landingPageData from "../json/landingPage.json";
 
 const LandingPage = () => {
@@ -8,6 +14,7 @@ const LandingPage = () => {
         <Navbar />
         <HrLine />
         <HeroSection data={landingPageData.hero} />
+        <MostPickedSection data={landingPageData.mostPicked} />
       </Fullscreen>
     </>
   );
