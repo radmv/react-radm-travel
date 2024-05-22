@@ -1,10 +1,5 @@
-import {
-  BrandIcon,
-  CenteredFlex,
-  Fullscreen,
-  HrLine,
-  Navbar,
-} from "../components";
+import { Fullscreen, HeroSection, HrLine, Navbar } from "../components";
+import landingPageData from "../json/landingPage.json";
 
 const LandingPage = () => {
   return (
@@ -12,9 +7,7 @@ const LandingPage = () => {
       <Fullscreen>
         <Navbar />
         <HrLine />
-        <CenteredFlex>
-          <BrandIcon />
-        </CenteredFlex>
+        <HeroSection data={landingPageData.hero} />
       </Fullscreen>
     </>
   );

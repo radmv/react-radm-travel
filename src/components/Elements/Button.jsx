@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const classNames =
-  "px-7 py-2 bg-mn-blue text-white rounded drop-shadow-[0_8px_15px_rgba(50,82,223,0.3)] disabled:drop-shadow-none disabled:cursor-not-allowed disabled:bg-mn-grey-1 disabled:text-mn-grey-3";
+  "px-10 py-3 bg-mn-blue text-white text-lg font-medium rounded drop-shadow-[0_8px_15px_rgba(50,82,223,0.3)] disabled:drop-shadow-none disabled:cursor-not-allowed disabled:bg-mn-grey-1 disabled:text-mn-grey-3";
 
 const Button = (props) => {
   const { children, buttonFor = "button", ...rest } = props;
