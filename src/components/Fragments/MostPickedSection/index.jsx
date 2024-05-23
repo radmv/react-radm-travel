@@ -20,11 +20,15 @@ const MostPickedSection = ({ data }) => {
                   <Card
                     imageUrl={item.imageUrl}
                     name={item.name}
-                    city={item.city}
-                    country={item.country}
-                    price={item.price}
                     href={item._id}
-                  />
+                  >
+                    <Card.Description
+                      name={item.name}
+                      city={item.city}
+                      country={item.country}
+                    />
+                    <Card.Badge value={item.price} />
+                  </Card>
                 </div>
               );
             })}

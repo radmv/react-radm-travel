@@ -12,7 +12,7 @@
       "imageUrl": "/images/image-mostpicked-1.jpg",
       "country": "South Korea",
       "city": "Seoul Flore",
-      "price": "80",
+      "price": 80,
       "unit": "night"
     },
     {
@@ -22,7 +22,7 @@
       "imageUrl": "/images/image-mostpicked-2.jpg",
       "country": "Indonesia",
       "city": "Bogor",
-      "price": "52",
+      "price": 52,
       "unit": "night"
     },
     {
@@ -32,7 +32,7 @@
       "imageUrl": "/images/image-mostpicked-3.jpg",
       "country": "South Korea",
       "city": "Seoul Flore",
-      "price": "80",
+      "price": 80,
       "unit": "night"
     },
     {
@@ -42,7 +42,7 @@
       "imageUrl": "/images/image-mostpicked-4.jpg",
       "country": "South Korea",
       "city": "Seoul Flore",
-      "price": "80",
+      "price": 80,
       "unit": "night"
     },
     {
@@ -52,7 +52,7 @@
       "imageUrl": "/images/image-mostpicked-5.jpg",
       "country": "South Korea",
       "city": "Seoul Flore",
-      "price": "80",
+      "price": 80,
       "unit": "night"
     }
   ],
