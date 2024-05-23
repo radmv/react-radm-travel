@@ -57,18 +57,36 @@ const Badge = (props) => {
   return (
     <div className="absolute top-0 right-0 px-4 py-2 rounded-bl-2xl bg-mn-pink">
       <DescriptionText>
-        <dl className="flex items-center px-6 text-white">
+        <dl className="flex items-center px-6 text-white gap-x-1">
           <dt className="font-medium">
             {isBadgeValueNumber(value) ? `$${value}` : value}
           </dt>
-          <dd>{isBadgeValueNumber(value) ? "/ per night" : " Choice"}</dd>
+          <dd>{isBadgeValueNumber(value) ? "per night" : " Choice"}</dd>
         </dl>
       </DescriptionText>
     </div>
   );
 };
 
+{
+  /* card footer */
+}
+const Footer = (props) => {
+  const { name, city, country } = props;
+  return (
+    <DescriptionText>
+      <dl className="pb-2 mt-4 text-mn-primary group-hover:mt-6">
+        <dt className="text-xl font-normal">{name}</dt>
+        <dd className="text-base text-mn-grey-0">
+          {city}, {country}
+        </dd>
+      </dl>
+    </DescriptionText>
+  );
+};
+
 Card.Badge = Badge;
 Card.Description = Description;
+Card.Footer = Footer;
 
 export default Card;

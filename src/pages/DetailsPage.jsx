@@ -1,9 +1,10 @@
-import { Navbar } from "../components";
+import { HrLine, Navbar } from "../components";
 
 const DetailsPage = () => {
   return (
     <div>
       <Navbar />
+      <HrLine />
       DetailsPage
     </div>
   );

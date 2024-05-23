@@ -1,4 +1,5 @@
 import {
+  CategoriesSection,
   Fullscreen,
   HeroSection,
   HrLine,
@@ -15,6 +16,7 @@ const LandingPage = () => {
         <HrLine />
         <HeroSection data={landingPageData.hero} />
         <MostPickedSection data={landingPageData.mostPicked} />
+        <CategoriesSection data={landingPageData.categories} />
       </Fullscreen>
     </>
   );

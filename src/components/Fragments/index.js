@@ -1,5 +1,6 @@
+import CategoriesSection from "./CategoriesSection";
 import HeroSection from "./HeroSection";
-import Navbar from "./Navbar";
 import MostPickedSection from "./MostPickedSection";
+import Navbar from "./Navbar";
 
-export { HeroSection, Navbar, MostPickedSection };
+export { CategoriesSection, HeroSection, MostPickedSection, Navbar };
