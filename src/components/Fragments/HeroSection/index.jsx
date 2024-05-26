@@ -4,6 +4,7 @@ import {
   DescriptionText,
   FeatureItem,
   Heading1,
+  PopupImage,
   SectionBracket,
 } from "../../Elements";
 
@@ -43,7 +44,7 @@ const HeroSection = ({ data }) => {
           </div>
 
           {/* bottom-left content */}
-          <div className="flex flex-row gap-x-12 mt-8">
+          <div className="flex flex-row mt-8 gap-x-12">
             {/* feature */}
             {data.map((item, index) => {
               return (
@@ -59,15 +60,13 @@ const HeroSection = ({ data }) => {
         </div>
 
         {/* right content */}
-        <div className="pt-8 relative">
-          <img
-            src={HeroImage}
-            alt="hero illustration"
-            loading="lazy"
-            className="absolute -top-1 -left-8"
-          />
-          <div className="border-4 border-mn-grey-1 w-[500px] h-[400px] rounded-2xl"></div>
-        </div>
+        <PopupImage
+          imageUrl={HeroImage}
+          imageAlt="hero illustration"
+          popTo="-top-8 -left-9"
+          width="w-[500px]"
+          height="h-[400px]"
+        />
       </div>
     </SectionBracket>
   );

@@ -6,18 +6,20 @@ const Card = (props) => {
 
   return (
     <div className="relative overflow-hidden rounded-2xl group">
-      <img
-        src={imageUrl}
-        alt={name}
-        loading="lazy"
-        className="duration-200 group-hover:scale-125"
-      />
+      <div className="relative w-full overflow-hidden h-fit rounded-2xl">
+        <img
+          src={imageUrl}
+          alt={name}
+          loading="lazy"
+          className="duration-200 group-hover:scale-125"
+        />
+        {/* card link */}
+        <Link
+          to={`/details/${href}`}
+          className="absolute top-0 bottom-0 left-0 right-0 w-full h-full"
+        ></Link>
+      </div>
       {children}
-      {/* card link */}
-      <Link
-        to={`/details/${href}`}
-        className="absolute top-0 bottom-0 left-0 right-0 w-full h-full"
-      ></Link>
     </div>
   );
 };
@@ -26,14 +28,18 @@ const Card = (props) => {
   /* card description */
 }
 const Description = (props) => {
-  const { name, city, country } = props;
+  const { name, city, country, href } = props;
 
   return (
-    <div className="absolute bottom-0 left-0 right-0 w-full h-1/2 bg-gradient-to-t from-black/70 to-mn-grey-1/0">
+    <div className="absolute bottom-0 left-0 right-0 w-full h-1/3 bg-gradient-to-t from-black/70 to-mn-grey-1/0">
       <div className="absolute bottom-6 left-6">
         <DescriptionText>
           <dl className="text-white">
-            <dt className="text-xl font-normal">{name}</dt>
+            <Link to={`/details/${href}`}>
+              <dt className="text-xl font-normal cursor-pointer hover:underline">
+                {name}
+              </dt>
+            </Link>
             <dd>
               {city}, {country}
             </dd>
@@ -72,11 +78,15 @@ const Badge = (props) => {
   /* card footer */
 }
 const Footer = (props) => {
-  const { name, city, country } = props;
+  const { name, city, country, href } = props;
   return (
     <DescriptionText>
-      <dl className="pb-2 mt-4 text-mn-primary group-hover:mt-6">
-        <dt className="text-xl font-normal">{name}</dt>
+      <dl className="pb-2 mt-4 text-mn-primary">
+        <Link to={`/details/${href}`}>
+          <dt className="text-xl font-normal cursor-pointer hover:underline">
+            {name}
+          </dt>
+        </Link>
         <dd className="text-base text-mn-grey-0">
           {city}, {country}
         </dd>

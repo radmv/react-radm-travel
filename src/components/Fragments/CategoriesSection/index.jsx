@@ -27,6 +27,7 @@ const CategoriesSection = ({ data }) => {
                           name={item.name}
                           city={item.city}
                           country={item.country}
+                          href={item._id}
                         />
                       </Card>
                     );

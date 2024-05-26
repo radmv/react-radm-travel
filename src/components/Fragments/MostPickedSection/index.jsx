@@ -26,6 +26,7 @@ const MostPickedSection = ({ data }) => {
                       name={item.name}
                       city={item.city}
                       country={item.country}
+                      href={item._id}
                     />
                     <Card.Badge value={item.price} />
                   </Card>

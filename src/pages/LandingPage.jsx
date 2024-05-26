@@ -5,6 +5,7 @@ import {
   HrLine,
   MostPickedSection,
   Navbar,
+  TestimonySection,
 } from "../components";
 import landingPageData from "../json/landingPage.json";
 
@@ -17,6 +18,7 @@ const LandingPage = () => {
         <HeroSection data={landingPageData.hero} />
         <MostPickedSection data={landingPageData.mostPicked} />
         <CategoriesSection data={landingPageData.categories} />
+        <TestimonySection data={landingPageData.testimonial} />
       </Fullscreen>
     </>
   );

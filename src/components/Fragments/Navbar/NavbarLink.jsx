@@ -5,7 +5,7 @@ const NavbarLink = (props) => {
   return (
     <Link
       {...rest}
-      className="text-mn-primary text-lg font-medium hover:text-mn-blue hover:font-semibold"
+      className="text-lg font-medium text-mn-primary hover:text-mn-blue hover:font-semibold"
     >
       {children}
     </Link>

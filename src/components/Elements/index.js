@@ -1,3 +1,4 @@
+import BorderedDiv from "./BorderedDiv";
 import BrandIcon from "./BrandIcon";
 import Button from "./Button";
 import Card from "./Card";
@@ -9,9 +10,12 @@ import Heading1 from "./Heading1";
 import Heading3 from "./Heading3";
 import HrLine from "./HrLine";
 import NavigationLink from "./NavigationLink";
+import PopupImage from "./PopupImage";
 import SectionBracket from "./SectionBracket";
+import StarRating from "./StarRating";
 
 export {
+  BorderedDiv,
   BrandIcon,
   Button,
   Card,
@@ -23,5 +27,7 @@ export {
   Heading3,
   HrLine,
   NavigationLink,
+  PopupImage,
   SectionBracket,
+  StarRating,
 };
