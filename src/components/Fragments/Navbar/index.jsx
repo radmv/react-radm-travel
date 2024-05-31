@@ -3,7 +3,7 @@ import NavbarLink from "./NavbarLink";
 
 const Navbar = () => {
   return (
-    <nav className="w-full mx-auto max-w-7xl">
+    <nav className="w-full max-w-6xl mx-auto">
       <div className="flex items-center justify-between py-7">
         <div>
           <NavigationLink>

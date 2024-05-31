@@ -8,6 +8,7 @@ import FeatureItem from "./FeatureItem";
 import Fullscreen from "./Fullscreen";
 import Heading1 from "./Heading1";
 import Heading3 from "./Heading3";
+import Heading4 from "./Heading4";
 import HrLine from "./HrLine";
 import NavigationLink from "./NavigationLink";
 import PopupImage from "./PopupImage";
@@ -25,6 +26,7 @@ export {
   Fullscreen,
   Heading1,
   Heading3,
+  Heading4,
   HrLine,
   NavigationLink,
   PopupImage,

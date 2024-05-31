@@ -10,7 +10,7 @@ import {
 const TestimonySection = ({ data }) => {
   return (
     <SectionBracket sectionId="stories">
-      <div>
+      <div className="max-w-[80%]">
         <div className="flex flex-row items-center gap-x-14">
           {/* left content */}
           <PopupImage
@@ -34,7 +34,7 @@ const TestimonySection = ({ data }) => {
                 <StarRating rating={data.rate} />
               </div>
               {/* description */}
-              <dl className="pr-16">
+              <dl className="">
                 <dt className="text-4xl">{data.content}</dt>
                 {/* sub description */}
                 <dd className="mt-2">

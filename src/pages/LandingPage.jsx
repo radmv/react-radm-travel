@@ -1,5 +1,6 @@
 import {
   CategoriesSection,
+  Footer,
   Fullscreen,
   HeroSection,
   HrLine,
@@ -19,6 +20,9 @@ const LandingPage = () => {
         <MostPickedSection data={landingPageData.mostPicked} />
         <CategoriesSection data={landingPageData.categories} />
         <TestimonySection data={landingPageData.testimonial} />
+        <div className="mt-24"></div>
+        <HrLine />
+        <Footer />
       </Fullscreen>
     </>
   );
