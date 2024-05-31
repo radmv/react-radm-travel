@@ -3392,7 +3392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.5.10, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -3443,6 +3443,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-reveal@npm:^1.2.2":
+  version: 1.2.2
+  resolution: "react-reveal@npm:1.2.2"
+  dependencies:
+    prop-types: "npm:^15.5.10"
+  peerDependencies:
+    react: ^15.3.0 || ^16.0.0
+  checksum: 10c0/6bc548a7e7b416e62df061aaa8f51bc2944e50e7271398ee22af4a3224b59d9247518859753d64370131f69807a7ebb2320ff4b151c375e043995afb5004247d
+  languageName: node
+  linkType: hard
+
 "react-router-dom@npm:^6.23.1":
   version: 6.23.1
   resolution: "react-router-dom@npm:6.23.1"
@@ -3482,6 +3493,7 @@ __metadata:
     postcss: "npm:^8.4.38"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-reveal: "npm:^1.2.2"
     react-router-dom: "npm:^6.23.1"
     tailwindcss: "npm:^3.4.3"
     vite: "npm:^5.2.0"
