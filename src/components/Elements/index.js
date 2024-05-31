@@ -10,6 +10,7 @@ import Heading1 from "./Heading1";
 import Heading3 from "./Heading3";
 import Heading4 from "./Heading4";
 import HrLine from "./HrLine";
+import InputNumber from "./InputNumber";
 import NavigationLink from "./NavigationLink";
 import PopupImage from "./PopupImage";
 import SectionBracket from "./SectionBracket";
@@ -28,6 +29,7 @@ export {
   Heading3,
   Heading4,
   HrLine,
+  InputNumber,
   NavigationLink,
   PopupImage,
   SectionBracket,
