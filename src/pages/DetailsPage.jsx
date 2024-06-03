@@ -1,6 +1,11 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { HrLine, Navbar, TitleDetailspage } from "../components";
+import {
+  FeaturedImageDetailspage,
+  HrLine,
+  Navbar,
+  TitleDetailspage,
+} from "../components";
 import detailsPageData from "../json/itemDetails.json";
 
 const DetailsPage = () => {
@@ -33,6 +38,7 @@ const DetailsPage = () => {
       <Navbar />
       <HrLine />
       <TitleDetailspage data={titleData} />
+      <FeaturedImageDetailspage data={detailsPageData.imageUrls} />
     </div>
   );
 };
