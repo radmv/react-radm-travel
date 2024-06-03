@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import MostPickedSection from "./MostPickedSection";
 import Navbar from "./Navbar";
 import TestimonySection from "./TestimonySection";
+import TitleDetailspage from "./TitleDetailspage";
 
 export {
   CategoriesSection,
@@ -12,4 +13,5 @@ export {
   MostPickedSection,
   Navbar,
   TestimonySection,
+  TitleDetailspage,
 };

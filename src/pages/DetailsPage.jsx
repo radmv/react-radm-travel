@@ -1,7 +1,10 @@
 import { useState } from "react";
-import { HrLine, InputDate, InputNumber, Navbar } from "../components";
+import { useParams } from "react-router-dom";
+import { HrLine, Navbar, TitleDetailspage } from "../components";
+import detailsPageData from "../json/itemDetails.json";
 
 const DetailsPage = () => {
+  const params = useParams();
   const [value, setValue] = useState("1");
   const [dateRange, setDateRange] = useState({
     startDate: new Date(),
@@ -17,26 +20,19 @@ const DetailsPage = () => {
     setValue(event.target.value);
   };
 
+  const titleData = {
+    params: params.houseId,
+    name: detailsPageData.name,
+    city: detailsPageData.city,
+    country: detailsPageData.country,
+  };
+  // console.log(detailsPageData);
+
   return (
     <div>
       <Navbar />
       <HrLine />
-      DetailsPage
-      <InputNumber
-        max={30}
-        isSuffixPlural
-        name="example"
-        onChange={handleInputnumberChange}
-        min={1}
-        suffix=" night"
-        value={value}
-      />
-      <InputDate
-        value={dateRange}
-        onChange={handleDateChange}
-        name="dateRange"
-        placeholder="Select date range"
-      />
+      <TitleDetailspage data={titleData} />
     </div>
   );
 };
