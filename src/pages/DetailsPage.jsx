@@ -1,29 +1,19 @@
-import { useState } from "react";
 import { useParams } from "react-router-dom";
 import {
+  CategoriesSection,
+  DescriptionDetailspage,
   FeaturedImageDetailspage,
+  Footer,
+  Fullscreen,
   HrLine,
   Navbar,
+  TestimonySection,
   TitleDetailspage,
 } from "../components";
 import detailsPageData from "../json/itemDetails.json";
 
 const DetailsPage = () => {
   const params = useParams();
-  const [value, setValue] = useState("1");
-  const [dateRange, setDateRange] = useState({
-    startDate: new Date(),
-    endDate: new Date(),
-    key: "selection",
-  });
-
-  const handleDateChange = (e) => {
-    setDateRange(e.target.value);
-  };
-
-  const handleInputnumberChange = (event) => {
-    setValue(event.target.value);
-  };
 
   const titleData = {
     params: params.houseId,
@@ -31,15 +21,25 @@ const DetailsPage = () => {
     city: detailsPageData.city,
     country: detailsPageData.country,
   };
-  // console.log(detailsPageData);
+  const descriptionData = {
+    description: detailsPageData.description,
+    facilities: detailsPageData.features,
+    price: detailsPageData.price,
+  };
 
   return (
-    <div>
+    <Fullscreen>
       <Navbar />
       <HrLine />
       <TitleDetailspage data={titleData} />
       <FeaturedImageDetailspage data={detailsPageData.imageUrls} />
-    </div>
+      <DescriptionDetailspage data={descriptionData} />
+      <CategoriesSection data={detailsPageData.categories} />
+      <TestimonySection data={detailsPageData.testimonial} />
+      <div className="mt-24"></div>
+      <HrLine />
+      <Footer />
+    </Fullscreen>
   );
 };
 

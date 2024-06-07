@@ -1,3 +1,4 @@
+import BookingForm from "./BookingForm";
 import BorderedDiv from "./BorderedDiv";
 import BrandIcon from "./BrandIcon";
 import BreadCrumb from "./BreadCrumb";
@@ -20,6 +21,7 @@ import SectionBracket from "./SectionBracket";
 import StarRating from "./StarRating";
 
 export {
+  BookingForm,
   BorderedDiv,
   BrandIcon,
   BreadCrumb,
